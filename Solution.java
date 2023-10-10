@@ -1,5 +1,6 @@
 import java.util.Scanner;
 //added comment
+//another comment to test git
 public class Solution {
 
     public static void isPrime(int n) {
