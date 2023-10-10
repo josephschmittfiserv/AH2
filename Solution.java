@@ -7,7 +7,8 @@ public class Solution {
         for (int i = 2; i < 10; i++) {
             //Test case bc 1 isn't prime
             if (n == 1) {
-                System.out.println(n + " is not a prime number!"); return;
+                System.out.println(n + " is not a prime number!"); 
+                return;
             }
             //dividing by 2-9 to find what is prime
             else if (n % i == 0 && n != i) {
